@@ -8,7 +8,7 @@
 - When the installation of Anaconda is over, launch the Anaconda shell: Click on  "Search", type "Anaconda Prompt" and click on it.
 
 - Go into the directory where you want to build the bot: e.g.:
- cd C:\Users\your name?\Documents\rasa_backend
+ cd C:\Users\your name?\Desktop\from-0-to-virtual-assistant\rasa_backend
 
 - Create a new Conda environment, this will allow to have all the dependencies together in a single centralized place: 
 
@@ -20,9 +20,9 @@ Specify the version of Python that you have installed in your Conda distribution
 
 ```conda activate rasa_env```
 
-You will note that the env has changed from the "base" env to "installingrasa" env.
+You will note that the env has changed from the "base" env to "rasa_env" env.
 
-- Other things you have to do...enter the following commands in the same shell where the environmet "installingrasa" is running: 
+- Other things you have to do...enter the following commands in the same shell where the environmet "rasa_env" is running: 
 
 ```
 conda install ujson 
@@ -45,7 +45,6 @@ rasa init
 - The shell will respond you: Do you want to train an initial model? Type "yes".
 
 - After the bot has finished training, the prompt will ask you: Do you want to speak to the trained assistant on the command line?
-
 
 ## Why do we have to install Rasa with conda?
 
