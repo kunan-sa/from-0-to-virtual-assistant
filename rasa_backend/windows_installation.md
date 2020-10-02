@@ -8,7 +8,7 @@
 - When the installation of Anaconda is over, launch the Anaconda shell: Click on  "Search", type "Anaconda Prompt" and click on it.
 
 - Go into the directory where you want to build the bot: e.g.:
- cd C:\Users\<your name?>\Documents\rasa_backend
+ cd C:\Users\your name?\Documents\rasa_backend
 
 - Create a new Conda environment, this will allow to have all the dependencies together in a single centralized place: 
 
