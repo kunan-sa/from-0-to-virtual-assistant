@@ -76,9 +76,9 @@ If you want to connect rasa bot with the frontend, you need install and run the 
 ----------------
 Troubleshooting:
 
-The moment of truth in your Rasa installation is when you try ```rasa train``` for the first time. 
+The moment of truth in your Rasa installation is when you try ```rasa train``` for the first time. If a model successfully trains, you did it! Kick back and enjoy the Conversational AI Revolution with the rest of us!
 
-If ```rasa train``` sends you and error, but no errors occurred during installation of the virtual environment, a potential cause could be that you have an older version of Rasa installed and your session is not finding the newer version of Rasa that you just installed. Try deactivating and then reactivating the virtual environment; first ```deactivate``` and, after returning to the root directory where your env is stored, activate the environment again using ```source ./venv/bin/activate```.
+However, if ```rasa train``` sends you and error, but no errors occurred during installation of the virtual environment, a potential cause could be that you have an older version of Rasa installed and your session is not finding the newer version of Rasa that you just installed. Try deactivating and then reactivating the virtual environment; first ```deactivate``` and, after returning to the root directory where your env is stored, activate the environment again using ```source ./venv/bin/activate```.
 
 
 <br>
