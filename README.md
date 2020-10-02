@@ -13,7 +13,7 @@ Once this is finished, you will have to [run the three parts together](#conn) on
 
 <img src="/images/arq.png" width="600"/>
 
-## Prerequisites to backend
+## Prerequisites
 
 Before you begin, you’ll need:
 * IDE or Text editor
