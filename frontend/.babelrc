@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "constants": "./src/constants.js",
+        "assets": "./assets",
+        "tests-mocks": "./mocks",
+        "actions": "./src/store/actions",
+        "helper": "./src/store/reducers/helper.js",
+        "messagesComponents": "./src/components/Widget/components/Conversation/components/Messages/components"
+      }
+    }]
+  ]
+}

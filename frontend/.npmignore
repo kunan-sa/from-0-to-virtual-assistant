@@ -1,0 +1,11 @@
+/src
+index_for_react_app.js
+yarn.lock
+assets
+mocks
+coverage
+circle.yml
+.babelrc
+.eslintrc.js
+.eslintignore
+webpack.config.js
