@@ -1,0 +1,4 @@
+rasa_backend/__pycache__/
+rasa_backend/venv
+rasa_backend/models
+rasa_backend/story_graph.dot

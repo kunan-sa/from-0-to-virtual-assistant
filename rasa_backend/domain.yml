@@ -1,0 +1,37 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - faq_session_recording
+  - faq_conference_hashtag
+  - faq_schedule
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hello! I'm Maria Luisa, your PyData conference assistant. Ask me a question about PyData."
+
+  utter_faq_session_recording:
+  - text: "Yes! The sessions will be recorded and recordings will be\
+      \ made available to attendees throughout the event and on YouTube\
+      \ after the event."
+
+  utter_faq_conference_hashtag:
+  - text: "Great question. This is the official event hashtag: #PyDataGlobal2020"
+
+  utter_faq_schedule:
+    - text: "For a preliminary view of the talk available check out this [link](https://global.pydata.org/pages/program)."
+  
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
