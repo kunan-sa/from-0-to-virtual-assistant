@@ -61,3 +61,22 @@
 - at what time does the talk about NLP begin?
 - can you show me the official program?
 - can I see the schedule?
+
+## intent:human_agent
+- I want to talk to a human
+- I want to talk with the person responsible for this bot
+- human please
+- human agent
+- Would it be possible to talk to a real person
+- I would like to talk to a human agent
+- Can I speak wit the boss
+- boss
+- I want to talk to the developer of this software
+- I need to talk to the person responsible for this
+- humano
+- human
+- need to talk to human
+- I don't want to talk to a bot
+- Can I speak to a human please
+- I want to talk to a person please
+- human intervention
