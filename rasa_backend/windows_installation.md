@@ -36,7 +36,7 @@ pip install rasa
 
 - In order to run Tensorflow on Windows you have to download Visual Studio C++ separately: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 
-- Come back to the "installingrasa conda environment", and try initializing a new bot. Enter:
+- Come back to the "rasa_env conda environment", and try initializing a new bot. Enter:
 
 ```
 rasa init
