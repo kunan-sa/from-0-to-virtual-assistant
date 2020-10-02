@@ -33,9 +33,9 @@ If you installed ngrok by downloading the file directly (not using homebrew), yo
 * Run the router
 ``` python main.py ```
 
-By default this run on port 8000. If you want to change this, on main.py, to the end, yo can especify another port in line: app.run(host="localhost", port=8000)
+By default this run on port 8000. If you want to change this, on main.py, to the end, you can especify another port in line: app.run(host="localhost", port=8000)
 
-* Whit ngrok expose the server running
+* With ngrok exposed, run the server:
 ``` ngrok http 8000 ```
 
 Here, you are going to see an url on your terminal. Next you will need to replace `http://<yyyyyy>.ngrok.io/webhook` with this.
