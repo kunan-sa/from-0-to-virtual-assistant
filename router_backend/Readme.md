@@ -21,10 +21,11 @@ If you installed ngrok by downloading the file directly (not using homebrew), yo
 
 #### __Run the router__
 
-* In new terminal activate the virtual environment
+* Open in a new terminal.
+* Activate the virtual environment (which you created for rasa_backend).
 ``` source ./venv/bin/activate ```
 
-> **Note for Windows Users**: If you have installed the backend packages (Rasa) using anaconda (as we recommend) then you should activate your environment using conda":
+> **Note for Windows Users**: If you have installed the backend packages (Rasa) using anaconda (as we recommend) then you should activate your environment using conda:
 ```conda activate rasa_env```
 
 * Move to router directory
