@@ -7,3 +7,6 @@ instructions_router.md
 router_backend/__pycache__
 */__pycache__
 *__pycache__
+*node_modules
+*.swp
+
