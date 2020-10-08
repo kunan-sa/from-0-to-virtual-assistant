@@ -5,6 +5,8 @@ In this section we will do the following:
 * __Run the router__: this is the server that manages the interaction between front and slack when human handoff is active.
 * __Create slack app__: this is needed to interact with slack api.
 
+Below you have all steps to do this, but just in case we recorded a video with the tutorial for this part. [See here](https://youtu.be/iHfFmwS-fsc)
+
 Go for it!
 
 

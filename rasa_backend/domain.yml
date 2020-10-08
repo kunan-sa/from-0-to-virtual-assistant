@@ -8,7 +8,8 @@ intents:
   - faq_schedule
   - bot_challenge
   - human_agent
-
+  - get_started
+  
 responses:
   utter_greet:
   - text: "Hello! I'm Maria Luisa, your PyData conference assistant. Ask me a question about PyData."
