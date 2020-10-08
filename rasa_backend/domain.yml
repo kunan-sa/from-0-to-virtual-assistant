@@ -7,14 +7,10 @@ intents:
   - faq_conference_hashtag
   - faq_schedule
   - bot_challenge
-  - human_agent
 
 responses:
   utter_greet:
   - text: "Hello! I'm Maria Luisa, your PyData conference assistant. Ask me a question about PyData."
-
-  utter_human_agent:
-  - text: "You are being transferred to a human!"
 
   utter_faq_session_recording:
   - text: "Yes! The sessions will be recorded and recordings will be\
@@ -25,7 +21,7 @@ responses:
   - text: "Great question. This is the official event hashtag: #PyDataGlobal2020"
 
   utter_faq_schedule:
-    - text: "For a preliminary view of the talk available check out this [link](https://global.pydata.org/pages/program)."
+    - text: "To see a full list of the available PyData talks check out this [link](https://global.pydata.org/pages/program)."
   
   utter_did_that_help:
   - text: "Did that help you?"
