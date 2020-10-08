@@ -68,3 +68,12 @@
   - utter_greet
 * faq_session_recording
   - utter_faq_session_recording
+
+## human agent
+* human_agent
+  - utter_human_agent
+
+## get_started
+* get_started
+  - utter_greet
+
