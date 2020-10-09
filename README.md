@@ -4,8 +4,8 @@ This project accompanies the PyData 2020 Global tutorial "[From 0 to Virtual Ass
 
 This repository has everything you need to build a chatbot with human handoff. You will need to install the required packages and run each of the three elements on your local computer. We recommend that you do the installation and execution in this order (click links below for instructions):
 * <a href="/rasa_backend/Readme.md">1° Rasa</a>
-* <a href="/router_backend/Readme.md">2° Router</a>
-* <a href="/frontend/Readme.md">3° Frontend</a>
+* <a href="/frontend/Readme.md">2° Frontend</a>
+* <a href="/router_backend/Readme.md">3° Router</a>
 
 You will find a _Readme.md_ file in each folder.
 
