@@ -7,7 +7,6 @@ intents:
   - faq_conference_hashtag
   - faq_schedule
   - bot_challenge
-  - human_agent
   - get_started
   
 responses:
