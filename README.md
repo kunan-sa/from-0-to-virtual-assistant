@@ -11,7 +11,7 @@ You will find a _Readme.md_ file in each folder.
 
 Once this is finished, you will have to [run the three parts together](#conn) on three seperate servers.
 
-<img src="/images/arq.png" width="600"/>
+<img src="/images/arch.png" width="600"/>
 
 ## Prerequisites
 
