@@ -5,7 +5,7 @@
 * [Install latest node and npm](https://nodejs.org/es/download/)
 > [Recommended but not required]. Install a npm version manager. Recommended this python one, [nodeenv](https://pypi.org/project/nodeenv/)
 
-> **Installation for Windows users** Install latest NodeJS and npm (https://nodejs.org/es/download/). Some npm modules need to be compiled form  C/C++ when installing. If you want to be able to install such modules, some tools, such as Python and Visual Studio Build Tools, need to be installed. Select the option  "Automatically install the necessary tools" in the installation wizard. Delete your node_modules folder which is located in the frontend project folder.
+> **Installation for Windows users** Install latest NodeJS and npm (https://nodejs.org/es/download/). Various npm modules need to be compiled from C/C++ when installing. If you want to be able to install such modules, some tools, such as Python and Visual Studio Build Tools, need to be installed. Select the option  "Automatically install the necessary tools" in the installation wizard. Delete your **node_modules** folder, which is located in the frontend project folder.
 
 #### __Installation__
 
