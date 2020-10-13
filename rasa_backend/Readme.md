@@ -5,7 +5,9 @@ Why set up a virtual environment? Virtual environments let you scope Python pack
 
 We’re using **venv** in this demo to create the virtual environment, because it’s built into the Python standard library. This process is recommended for Mac and Linux users.
 
-> **Note for Windows Users**: If you’re using Windows, we recommend using Anaconda to set up your virtual environment instead of **venv**. We have detailed instructions <a href="/windows_installation.md">here</a> and this [video tutorial](https://www.youtube.com/watch?v=4ewIABo0OkU) to help. The important parts to note are installing ujson, tensorflow, and the Visual Studio C++ build tools.
+> **Note for Windows Users**: If you’re using Windows, we recommend using Anaconda to set up your virtual environment instead of **venv**. You can find detailed instructions [here](https://www.anaconda.com/products/individual/get-started) and in this [video tutorial](https://www.youtube.com/watch?v=4ewIABo0OkU) to help. The important parts to note are installing ujson, tensorflow, and the Visual Studio C++ build tools. Also, it is important to activate the option “Add Anaconda to my PATH environment variable" during the installation of Anaconda. 
+
+> To create an environment in conda type ```conda create --name pydata_env python==3.7.6```
 
 For the tutorial, we’ll be working with an existing Rasa project instead of creating a new one using ```rasa init``` (the recommended method when building your own bot from scratch), so be sure to clone this project using ```git clone https://git.democrm.com.ar/ia/from-0-to-virtual-assitant.git``` and install the dependencies (instructions below).
 
@@ -19,8 +21,7 @@ For the tutorial, we’ll be working with an existing Rasa project instead of cr
 
 > NB: In order to leave the virtual environment simply use the command
 >    ```deactivate```
-
-> to delete/ remove with
+> delete/ remove the environment with
 > ```rm -rf venv```
 
 #### __Install dependencies__
@@ -32,6 +33,8 @@ To install [Rasa Open Source](https://rasa.com/docs/rasa/) (along with the other
     * ```pip install --upgrade pip```
 * Install dependencies
     * ```pip install -r requirements.txt```
+
+> **Installing Rasa with windows**: This [video](https://www.youtube.com/watch?v=4ewIABo0OkU) provides a guide to installing Rasa on a Windows operating system.
 
 ## __Rasa__ <a name="rasa"></a>
 
