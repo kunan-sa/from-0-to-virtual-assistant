@@ -19,10 +19,7 @@ For the tutorial, we’ll be working with an existing Rasa project instead of cr
 * Activate the virtual environment
     * ```source ./venv/bin/activate```
 
-> NB: In order to leave the virtual environment simply use the command
->    ```deactivate```
-> delete/ remove the environment with
-> ```rm -rf venv```
+> NB: In order to leave the virtual environment simply use the command ```deactivate```; delete/ remove the environment with ```rm -rf venv```.
 
 #### __Install dependencies__
 
@@ -34,7 +31,7 @@ To install [Rasa Open Source](https://rasa.com/docs/rasa/) (along with the other
 * Install dependencies
     * ```pip install -r requirements.txt```
 
-> **Installing Rasa with windows**: This [video](https://www.youtube.com/watch?v=4ewIABo0OkU) provides a guide to installing Rasa on a Windows operating system.
+> **Installing Rasa for Windows Users**: This [video](https://www.youtube.com/watch?v=4ewIABo0OkU) provides a guide to installing Rasa on a Windows operating system.
 
 ## __Rasa__ <a name="rasa"></a>
 
