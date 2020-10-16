@@ -1,6 +1,6 @@
 # From 0 to virtual assitant
 
-This project accompanies the PyData 2020 Global tutorial "[From 0 to Virtual Assistant (Now with human handoff!)](https://global.pydata.org/talks/from-0-to-virtual-assistant-now-with-human-handoff)."
+This project accompanies the PyData 2020 Global tutorial "[From 0 to Virtual Assistant (Now with human handoff!)](https://global.pydata.org/talks/from-0-to-virtual-assistant-now-with-human-handoff){:target="_blank" rel="noopener"}."
 
 This repository has everything you need to build a chatbot with human handoff. You will need to install the required packages and run each of the three elements on your local computer. We recommend that you do the installation and execution in this order (click links below for instructions):
 * <a href="/rasa_backend/Readme.md">1° Rasa</a>
