@@ -1,4 +1,4 @@
-# __4. Frontend__
+# Frontend__
 
 #### __Prerequisites__
 
