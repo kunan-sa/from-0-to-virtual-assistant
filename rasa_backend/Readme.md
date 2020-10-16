@@ -9,7 +9,7 @@ We’re using **venv** in this demo to create the virtual environment, because i
 
 > To create an environment in conda type ```conda create --name pydata_env python==3.7.6```
 
-For the tutorial, we’ll be working with an existing Rasa project instead of creating a new one using ```rasa init``` (the recommended method when building your own bot from scratch), so be sure to clone this project using ```git clone https://git.democrm.com.ar/ia/from-0-to-virtual-assitant.git``` and install the dependencies (instructions below).
+For the tutorial, we’ll be working with an existing Rasa project instead of creating a new one using ```rasa init``` (the recommended method when building your own bot from scratch), so be sure to clone this project using ```git clone https://github.com/kunan-sa/from-0-to-virtual-assistant``` and install the dependencies (instructions below).
 
 #### __Steps (Mac/Linux):__
 
