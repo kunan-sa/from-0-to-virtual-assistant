@@ -62,7 +62,7 @@
 - can you show me the official program?
 - can I see the schedule?
 
-## intent:human_agent
+## intent:human_handoff
 - I want to talk to a human
 - I want to talk with the person responsible for this bot
 - human please

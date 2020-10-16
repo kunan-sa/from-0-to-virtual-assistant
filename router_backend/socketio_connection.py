@@ -51,11 +51,11 @@ async def received_user_message(sid, data):
     if data["message"]!="/get_started":
         error = await conn.send_to_operator(channel_id, data["message"])
 
-    if error == "channel_not_found":
-        channel_id = await conn.connect_to_slack(session_id)
-        if channel_id is None:
-            return await sio.emit("bot_uttered", {"text": ERROR_CONNECT_TO_SLACK}, room=session_id)
-        await conn.send_to_operator(channel_id, data["message"])
+        if error == "channel_not_found":
+            channel_id = await conn.connect_to_slack(session_id)
+            if channel_id is None:
+                return await sio.emit("bot_uttered", {"text": ERROR_CONNECT_TO_SLACK}, room=session_id)
+            await conn.send_to_operator(channel_id, data["message"])
 
-    elif error is not None:
-        await sio.emit("bot_uttered", {"text": ERROR_SEND_MESSAGE}, room=session_id)
+        elif error is not None:
+            await sio.emit("bot_uttered", {"text": ERROR_SEND_MESSAGE}, room=session_id)

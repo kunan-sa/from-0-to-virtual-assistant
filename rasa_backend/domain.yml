@@ -7,14 +7,14 @@ intents:
   - faq_conference_hashtag
   - faq_schedule
   - bot_challenge
-  - human_agent
+  - human_handoff
   - get_started
   
 responses:
   utter_greet:
   - text: "Hello! I'm Maria Luisa, your PyData conference assistant. Ask me a question about PyData."
 
-  utter_human_agent:
+  utter_human_handoff:
   - text: "You are being transferred to a human!"
 
   utter_faq_session_recording:

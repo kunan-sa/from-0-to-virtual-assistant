@@ -69,9 +69,9 @@
 * faq_session_recording
   - utter_faq_session_recording
 
-## human agent
-* human_agent
-  - utter_human_agent
+## human_handoff simple
+* human_handoff
+  - utter_human_handoff
 
 ## get_started
 * get_started

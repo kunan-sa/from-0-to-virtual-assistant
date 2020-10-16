@@ -55,4 +55,4 @@ async def webhook(request):
 
 
 if __name__ == "__main__":
-    app.run(host="localhost", port=8000, debug=True, access_log=True, ssl=None)
+    app.run(host="localhost", port=8000, debug=False, access_log=True, ssl=None)

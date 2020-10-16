@@ -1,5 +1,7 @@
 # __4. Frontend__
 
+#### __This code comes from https://github.com/botfront__ and has some modifications to get a human handoff.
+
 #### __Prerequisites__
 
 * [Install latest node and npm](https://nodejs.org/es/download/)
