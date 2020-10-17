@@ -1,6 +1,6 @@
 # __4. Frontend__
 
-#### __This code comes from https://github.com/botfront__ and has some modifications to get a human handoff.
+#### __This code comes from https://github.com/botfront__ and has some modifications to get a human handoff.__
 
 #### __Prerequisites__
 
