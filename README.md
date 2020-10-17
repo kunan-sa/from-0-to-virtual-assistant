@@ -35,3 +35,11 @@ Upon requesting for a human transfer, the bot should answer with the `TO_HUMAN_T
 > If the input of the chat is disabled and there appears a server connection error check:
 > * Have the URLs been correctly set? (check for any http vs https typos)
 > * Am I running the Rasa chatbot correctly? (should be run **with cors enabled**)
+
+## More information
+* https://rasa.com/
+* [Rasa masterclass](https://www.youtube.com/watch?v=rlAQWbhwqLA&list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc)
+* https://botfront.io/rasa/
+* https://api.slack.com/apps
+* https://sanic.readthedocs.io/en/latest/
+* https://python-socketio.readthedocs.io/en/latest/
